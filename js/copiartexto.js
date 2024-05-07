@@ -1,3 +1,9 @@
+{
+    var miElemento = document.getElementById("elemento");
+    var numeroConsulta= document.getElementById("numeroConsulta");
+    var realizado = false;
+    }
+
 function copiarTexto() {
     var texto = document.getElementById("elemento").innerText;
     navigator.clipboard.writeText(texto).then(function() {
